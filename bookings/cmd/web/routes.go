@@ -2,8 +2,8 @@ package main
 
 import (
 	"net/http"
-	"github.com/BozaCraft/go-course/pkg/config"
-	"github.com/BozaCraft/go-course/pkg/handlers"
+	"github.com/BozaCraft/bookings/pkg/config"
+	"github.com/BozaCraft/bookings/pkg/handlers"
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
 

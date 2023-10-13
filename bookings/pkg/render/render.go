@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"log"
 	"bytes"
-	"github.com/BozaCraft/go-course/pkg/config"
-	"github.com/BozaCraft/go-course/pkg/models"
+	"github.com/BozaCraft/bookings/pkg/config"
+	"github.com/BozaCraft/bookings/pkg/models"
 
 )
 

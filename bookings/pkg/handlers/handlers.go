@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"github.com/BozaCraft/go-course/pkg/render"
-	"github.com/BozaCraft/go-course/pkg/config"
-	"github.com/BozaCraft/go-course/pkg/models"
+	"github.com/BozaCraft/bookings/pkg/render"
+	"github.com/BozaCraft/bookings/pkg/config"
+	"github.com/BozaCraft/bookings/pkg/models"
 	"net/http"
 )
 

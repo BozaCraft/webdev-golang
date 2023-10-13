@@ -4,9 +4,9 @@ import (
 
 	"fmt"
 	"net/http"
-	"github.com/BozaCraft/go-course/pkg/handlers"
-	"github.com/BozaCraft/go-course/pkg/config"
-	"github.com/BozaCraft/go-course/pkg/render"
+	"github.com/BozaCraft/bookings/pkg/handlers"
+	"github.com/BozaCraft/bookings/pkg/config"
+	"github.com/BozaCraft/bookings/pkg/render"
 	"github.com/alexedwards/scs/v2"
 	"log"
 	"time"
