@@ -143,11 +143,11 @@
               <div class="row" id="reservation-dates-modal">
                 
                 <div class="col">
-                  <input required class="form-control" type="text" name="start" id="start" placeholder="arrival">
+                  <input disabled required class="form-control" type="text" name="start" id="start" placeholder="arrival">
                 </div>
 
                 <div class="col">
-                  <input required class="form-control" type="text" name="end" id="end" placeholder="departure">
+                  <input disabled required class="form-control" type="text" name="end" id="end" placeholder="departure">
                 </div>
 
               </div>
@@ -257,7 +257,11 @@
                 document.getElementById('start').value,
                 document.getElementById('end').value
               ]
-            }
+            },
+            didOpen: () => {
+              document.getElementById('start').removeAttribute('disabled')
+              document.getElementById('end').removeAttribute('disabled')
+            },
           })
 
           if (formValues) {
