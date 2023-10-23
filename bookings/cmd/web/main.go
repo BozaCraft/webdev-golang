@@ -4,9 +4,9 @@ import (
 
 	"fmt"
 	"net/http"
-	"github.com/BozaCraft/bookings/pkg/handlers"
-	"github.com/BozaCraft/bookings/pkg/config"
-	"github.com/BozaCraft/bookings/pkg/render"
+	"github.com/BozaCraft/bookings/internal/handlers"
+	"github.com/BozaCraft/bookings/internal/config"
+	"github.com/BozaCraft/bookings/internal/render"
 	"github.com/alexedwards/scs/v2"
 	"log"
 	"time"

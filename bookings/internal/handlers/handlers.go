@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"github.com/BozaCraft/bookings/pkg/render"
-	"github.com/BozaCraft/bookings/pkg/config"
-	"github.com/BozaCraft/bookings/pkg/models"
+	"github.com/BozaCraft/bookings/internal/render"
+	"github.com/BozaCraft/bookings/internal/config"
+	"github.com/BozaCraft/bookings/internal/models"
 	"net/http"
 	"fmt"
 	"encoding/json"

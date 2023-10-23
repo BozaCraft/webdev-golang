@@ -7,8 +7,8 @@ import (
 	"path/filepath"
 	"log"
 	"bytes"
-	"github.com/BozaCraft/bookings/pkg/config"
-	"github.com/BozaCraft/bookings/pkg/models"
+	"github.com/BozaCraft/bookings/internal/config"
+	"github.com/BozaCraft/bookings/internal/models"
 	"github.com/justinas/nosurf"
 )
 
